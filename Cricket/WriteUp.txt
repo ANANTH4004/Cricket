@@ -1,0 +1,27 @@
+﻿
+
+
+FastPace Cricket Academy
+				
+Step 1 : Create a Player Class which contains the Proprties for players like Player Name , Player Id and Age of Player.
+		 In the Player Class there is a default Constructor and a parameterized Constructor with Name , Id , Age as
+		 Arguments.
+
+Step 2 : Created a ITeam Interface to have the default methods and members for a OneDayTeam Create a Team which sotres the details 
+		 of players in the team. it contain a PlayerCount variable to store thetotal count of the players in the team.
+		 And it has the List Which is the type of Players.
+
+Step 3 : In the OneDayTeam class I write a AddPlayers() Method to add players in the team which take no arguments and ask 
+		 user to enter the data manually. After user added player in the team the player count increased by one.
+		 and the player Added to the List of player in the team or you can pass Player Object as a argument to the AddPlayer() 
+		 method then it doesn't ask for user to enter the data.
+
+Step 4 : In the OneDayTeam class i created a method called RemovePlayer() it take player Id as argument and find the player 
+		 whose Player id is same as the passed value then the Player is removed from the list and the player count is reduced by one
+
+Step 5 : In OneDayTeam class there is a Method named GetPlayer() which has 2 overloads user can pass a player id to find the 
+		Details of the player or user can pass Player Name and find the Details of the player.
+
+Step 6 : Created a Print method which print the Entire player details in the Team.
+
+Step 7 : Finally in the program.cs file create a switch case for all the functioin in the OneDayTeam.
